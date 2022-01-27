@@ -1,0 +1,9 @@
+{{!-- view for the post creation --}}
+<h1>All posts</h1>
+{{#each posts}}
+  <div>
+    <h2>{{this.title}}</h2>
+  </div>
+{{else}}
+  There are no posts to show
+{{/each}}
